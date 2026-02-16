@@ -7,8 +7,8 @@ const app = new cdk.App();
 
 new PersonalAssistantStack(app, 'PersonalAssistantStack', {
   env: {
-    account: process.env.CDK_DEFAULT_ACCOUNT,
-    region: process.env.CDK_DEFAULT_REGION || 'us-east-1',
+    account: '817437953724',
+    region: 'eu-west-2',
   },
   description: 'Personal AI Assistant infrastructure on AWS ECS Fargate',
 });
